@@ -1,5 +1,6 @@
-import BarLink from "@mui/material/Link";
-import "./SideBar.jsx";
+import BarLink from '@mui/material/Link';
+
+import './SideBar.jsx';
 
 function SidebarLink({ text }) {
   return (
@@ -7,8 +8,7 @@ function SidebarLink({ text }) {
       className="SideBarLink"
       href="#"
       underline="none"
-      sx={{ display: "block", p: 1, color: "text.secondary" }}
-    >
+      sx={{ display: 'block', p: 1, color: 'text.secondary' }}>
       {text}
     </BarLink>
   );
